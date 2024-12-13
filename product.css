@@ -1,0 +1,113 @@
+body
+{
+    background: white;
+}
+.bread
+{
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #565656;
+}
+.pdisplay
+{
+    min-height: 100%;
+    padding: 10px 20px;
+    display: flex;
+}
+.pimg
+{
+    display: flex;
+    gap: 10px;
+
+}
+.picon
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.picon img
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+.pdetails
+{
+    margin: 0 30px;
+}
+.ptitle
+{
+    font-size: 25px;
+}
+.brandstore
+{
+    margin-top: 5px;
+    color: #007185;
+    font-size: 14px;
+}
+.prating
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.prating div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.prating p
+{
+    color: #007185;
+}
+.prating p span
+{
+    color: white;
+    background: #c73500;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.prating h5{
+    font-weight: 400;
+
+}
+.pprice
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pprice div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.pprice div p{
+    font-size: 26px;
+    color: #c73500;
+}
+.pprice div h1{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.pprice div h1 span{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+.pprice div h5{
+    color: #565656;
+    font-weight: 400;
+}
+.pprice h5 span
+{
+    text-decoration: line-through;
+}
+.pprice p span
+{
+    color: #007185;
+}
